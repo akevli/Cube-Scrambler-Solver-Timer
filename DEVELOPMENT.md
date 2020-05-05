@@ -1,0 +1,36 @@
+# Development
+
+---
+
+- **4/14/20** 
+    - Wrote final project documentation
+    - Added external libraries
+- **4/19/20** 
+    - Import external libraries into CMake
+    - Install python and link python2.7 to Matplotlib and kociemba
+    - Getting errors so instead used kociemba C source files
+- **4/20/20** 
+    - python27_d.lib error
+    - Error including python27_d.lib not allowing to run
+- **4/21/20** 
+    - Setup SQLite database
+- **4/25/20** 
+    - Continue to implement kociemba via C++ source files
+    - Finish working on cube scramble generator
+    - Implement getting state of cube after scramble
+    - Fix cube scramble generator
+- **4/26/20** 
+    - Fix bug where scrambled cube state is incorrect
+    - Reset state of the cube to solved state once a scramble is given
+    - Implement timer
+    - Implement timer database that records score of each solve
+- **4/27/20**
+    - Fix python 2.7 linker and install matplotlib
+    - Fix matplotlib-cpp library
+    - Implement displaying the 3x3 graph on the pause menu
+    - Manage functions for source files/headers
+- **4/28/20**
+   - Cleanup code
+ - **5/2/20**
+    - Added support to export graph to assets/graph.png when viewing the plot
+    - Add visualization of cube state
